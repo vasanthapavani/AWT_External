@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing:border-box;
+}
+.login{
+    width:100%;
+    min-width: 100vh;
+    height: 100vh;
+    background: url(white-aesthetic-table-vase.jpg);
+    background-position: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login h1 {
+    color:black;
+    font-weight:500;
+    margin-bottom: 40px;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 25%;
+    max-width: 800px;
+    background: white;
+}
+.left{
+    padding:15px;
+    background:#69e46f;
+    flex-basis: 30%;
+    flex-grow: 1;
+    color:white;
+    border-radius: 20px;
+}
+.right{
+    padding:50px;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+.input{
+    width: 100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid white;
+    outline:none;
+    color:white;
+    font-size:18px;
+    background:transparent;
+}
+::placeholder{
+    color:white;
+}
+input[type=checkbox]{
+    margin-top: 30px;
+}
+.left label{
+    font-size:18px;
+}
+.left button{
+    width: 100%;
+    background: white;
+    padding:10px;
+    border: 0;
+    outline:none;
+    font-size: 16px;
+    margin-top:20px;
+    cursor: pointer;
+    transition: background 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left button:hover{
+    font-weight: 500;
+    background: black;
+    color:white;
+}
+.left button span{
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+    transition:width 0.5s;
+}
+.left button:hover span{
+    width:30px;
+}
+.right a{
+    display: block;
+    width: 100%;
+    margin:20px 0;
+    min-width: 250px;
+    color: white;
+    font-size:14px;
+    padding:15px 30px;
+    text-decoration: none;
+    /* background:#6b00d5; */
+}
+.right a i{
+    font-size:18px;
+    margin-right: 10px;
+}
+.phone{
+    background:#1da1f2;
+}
+.google{
+    background:#ea4335;
+}
+.message{
+    color:black;
+    margin-top:30px;
+    font-size: 18px;
+}
+.message a{
+    color:#ea4335;
+    text-decoration:none;
+}
+
